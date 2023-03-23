@@ -16,6 +16,14 @@ header{
     height: 60px;
 }
 
+header .version{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1.2rem;
+    color: #5f6368;
+}
+
 header nav {
     display: flex;
     justify-content: end;
