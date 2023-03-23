@@ -9,6 +9,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header container */
+
 header{
     width: 100%;
     height: 60px;
@@ -48,3 +50,89 @@ header nav ul li:nth-child(4) img{
 header nav ul li a{
     text-decoration: none;
 }
+
+/* Main container */
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .google-search-container{
+    width: 100%;
+}
+
+main .google-search-container{
+    margin-bottom: 24px;
+}
+
+main .google-search-container .google-search-input-container{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 2px;
+}
+
+main .google-search-container .google-search-input-container .google-search-icon{
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .google-search-container .google-search-input-container input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .google-search-container .google-search-input-container:hover{
+    /*  */
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e514;
+}
+
+main .google-search-container .google-search-input-container .google-icon-microphone{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .google-search-container .google-search-input-container .google-icon-camera{
+    background-image: url('https://i.pcmag.com/imagery/articles/00Cx7vFIetxCuKxQeqPf8mi-24..v1580943857.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    width: 18px;
+    height: 18px;
+}
+
+main .google-secondaty-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .google-secondaty-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #22222230;
+    color: #222;
+}
+
+
